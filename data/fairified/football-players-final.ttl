@@ -1,0 +1,460 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix schema: <http://schema.org/> .
+@prefix myont: <https://w3id.org/FAIR-course-UT/2025-2026/group9/ont#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#max-alleyne> a myont:FootballPlayer;
+foaf:name "Max Alleyne" .
+<https://www.wikidata.org/entity/Q336286> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#max-alleyne> wdt:P413 <https://www.wikidata.org/entity/Q336286> .
+<https://www.wikidata.org/entity/Q50602> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#max-alleyne> wdt:P54 <https://www.wikidata.org/entity/Q50602> .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#max-alleyne> wdt:P1532 <https://www.wikidata.org/entity/Q21> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#max-alleyne> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "2005-07-21"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#miguel-almirón> wdt:P569 "1994-10-02"^^xsd:date;
+myont:expectedAssists "0.2"^^xsd:float;
+a myont:FootballPlayer;
+foaf:name "Miguel Almirón" .
+<https://www.wikidata.org/entity/Q193592> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#miguel-almirón> wdt:P413 <https://www.wikidata.org/entity/Q193592> .
+<https://www.wikidata.org/entity/Q18716> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#miguel-almirón> myont:expectedGoals "0.52"^^xsd:float;
+wdt:P54 <https://www.wikidata.org/entity/Q18716> .
+<https://www.wikidata.org/entity/Q733> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#miguel-almirón> wdt:P1532 <https://www.wikidata.org/entity/Q733> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#miguel-almirón> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#samuel-amissah> a myont:FootballPlayer;
+foaf:name "Samuel Amissah" .
+<https://www.wikidata.org/entity/Q336286> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#samuel-amissah> wdt:P413 <https://www.wikidata.org/entity/Q336286> .
+<https://www.wikidata.org/entity/Q18708> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#samuel-amissah> wdt:P54 <https://www.wikidata.org/entity/Q18708> .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#samuel-amissah> wdt:P1532 <https://www.wikidata.org/entity/Q21> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#samuel-amissah> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "2007-07-03"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#emilio-ballard-matthews> foaf:name "Emilio Ballard-Matthews" .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#emilio-ballard-matthews> wdt:P8006 <https://www.wikidata.org/entity/Q136817382> .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#emilio-ballard-matthews> wdt:P413 <https://www.wikidata.org/entity/Q280658> .
+<https://www.wikidata.org/entity/Q19500> a wd:Q847017 .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#emilio-ballard-matthews> wdt:P1532 <https://www.wikidata.org/entity/Q21>;
+wdt:P54 <https://www.wikidata.org/entity/Q19500>;
+a myont:FootballPlayer;
+wdt:P569 "2008-11-08"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#arnaut-danjuma> wdt:P413 <https://www.wikidata.org/entity/Q280658>;
+foaf:name "Arnaut Danjuma" .
+<https://www.wikidata.org/entity/Q5794> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#arnaut-danjuma> wdt:P54 <https://www.wikidata.org/entity/Q5794>;
+a myont:FootballPlayer .
+<https://www.wikidata.org/entity/Q55> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#arnaut-danjuma> wdt:P1532 <https://www.wikidata.org/entity/Q55> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#arnaut-danjuma> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "1997-01-31"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#christian-eriksen> wdt:P54 <https://www.wikidata.org/entity/Q18656> .
+<https://www.wikidata.org/entity/Q18656> a wd:Q847017 .
+<https://www.wikidata.org/entity/Q35> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#christian-eriksen> wdt:P1532 <https://www.wikidata.org/entity/Q35>;
+foaf:name "Christian Eriksen";
+a myont:FootballPlayer .
+<https://www.wikidata.org/entity/Q193592> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#christian-eriksen> wdt:P413 <https://www.wikidata.org/entity/Q193592> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#christian-eriksen> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "1992-02-14"^^xsd:date;
+myont:expectedAssists "2.61"^^xsd:float;
+myont:expectedGoals "1.36"^^xsd:float;
+myont:assists "2"^^xsd:integer;
+myont:goals "1"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jonny-evans> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+a myont:FootballPlayer;
+foaf:name "Jonny Evans" .
+<https://www.wikidata.org/entity/Q336286> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jonny-evans> wdt:P413 <https://www.wikidata.org/entity/Q336286> .
+<https://www.wikidata.org/entity/Q18656> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jonny-evans> wdt:P54 <https://www.wikidata.org/entity/Q18656> .
+<https://www.wikidata.org/entity/Q26> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jonny-evans> wdt:P1532 <https://www.wikidata.org/entity/Q26> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jonny-evans> wdt:P569 "1988-03-01"^^xsd:date;
+myont:expectedAssists "0.03"^^xsd:float;
+myont:expectedGoals "0.13"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mark-flekken> myont:assists "2"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mark-flekken> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+myont:expectedAssists "0"^^xsd:float;
+wdt:P569 "1993-06-13"^^xsd:date;
+a myont:FootballPlayer;
+foaf:name "Mark Flekken" .
+<https://www.wikidata.org/entity/Q201330> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mark-flekken> wdt:P413 <https://www.wikidata.org/entity/Q201330> .
+<https://www.wikidata.org/entity/Q19571> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mark-flekken> wdt:P54 <https://www.wikidata.org/entity/Q19571> .
+<https://www.wikidata.org/entity/Q55> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mark-flekken> wdt:P1532 <https://www.wikidata.org/entity/Q55>;
+myont:expectedGoals "0"^^xsd:float .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mason-greenwood> a myont:FootballPlayer;
+foaf:name "Mason Greenwood" .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mason-greenwood> wdt:P413 <https://www.wikidata.org/entity/Q280658> .
+<https://www.wikidata.org/entity/Q18656> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mason-greenwood> wdt:P54 <https://www.wikidata.org/entity/Q18656> .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mason-greenwood> wdt:P1532 <https://www.wikidata.org/entity/Q21> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#mason-greenwood> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "2001-01-10"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://www.wikidata.org/entity/Q18732> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#albert-grønbæk> wdt:P54 <https://www.wikidata.org/entity/Q18732> .
+<https://www.wikidata.org/entity/Q35> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#albert-grønbæk> wdt:P1532 <https://www.wikidata.org/entity/Q35> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#albert-grønbæk> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "2001-05-23"^^xsd:date;
+a myont:FootballPlayer;
+foaf:name "Albert Grønbæk" .
+<https://www.wikidata.org/entity/Q193592> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#albert-grønbæk> wdt:P413 <https://www.wikidata.org/entity/Q193592>;
+myont:expectedAssists "0.01"^^xsd:float;
+myont:expectedGoals "0.12"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://www.wikidata.org/entity/Q22> a wd:Q6256 .
+<https://www.wikidata.org/entity/Q336286> a wd:Q4611891 .
+<https://www.wikidata.org/entity/Q19571> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#aaron-hickey> wdt:P54 <https://www.wikidata.org/entity/Q19571>;
+wdt:P413 <https://www.wikidata.org/entity/Q336286>;
+a myont:FootballPlayer;
+foaf:name "Aaron Hickey";
+wdt:P1532 <https://www.wikidata.org/entity/Q22> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#aaron-hickey> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "2002-10-06"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#dean-huijsen> myont:expectedGoals "1.87"^^xsd:float;
+myont:goals "3"^^xsd:integer;
+myont:assists "2"^^xsd:integer .
+<https://www.wikidata.org/entity/Q29> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#dean-huijsen> wdt:P1532 <https://www.wikidata.org/entity/Q29>;
+a myont:FootballPlayer;
+foaf:name "Dean Huijsen" .
+<https://www.wikidata.org/entity/Q336286> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#dean-huijsen> wdt:P413 <https://www.wikidata.org/entity/Q336286> .
+<https://www.wikidata.org/entity/Q19568> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#dean-huijsen> wdt:P54 <https://www.wikidata.org/entity/Q19568> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#dean-huijsen> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "2005-04-14"^^xsd:date;
+myont:expectedAssists "1.57"^^xsd:float .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#kim-ji-soo> a myont:FootballPlayer;
+foaf:name "Kim Ji-Soo" .
+<https://www.wikidata.org/entity/Q336286> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#kim-ji-soo> wdt:P413 <https://www.wikidata.org/entity/Q336286> .
+<https://www.wikidata.org/entity/Q19571> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#kim-ji-soo> wdt:P54 <https://www.wikidata.org/entity/Q19571> .
+<https://www.wikidata.org/entity/Q884> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#kim-ji-soo> wdt:P1532 <https://www.wikidata.org/entity/Q884> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#kim-ji-soo> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "2004-12-24"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#adam-lallana> foaf:name "Adam Lallana";
+wdt:P1532 <https://www.wikidata.org/entity/Q21>;
+wdt:P569 "1988-10-05"^^xsd:date .
+<https://www.wikidata.org/entity/Q193592> a wd:Q4611891 .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://www.wikidata.org/entity/Q18732> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#adam-lallana> wdt:P54 <https://www.wikidata.org/entity/Q18732>;
+wdt:P413 <https://www.wikidata.org/entity/Q193592>;
+a myont:FootballPlayer;
+wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+myont:expectedAssists "0.49"^^xsd:float;
+myont:expectedGoals "0.17"^^xsd:float;
+myont:assists "2"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jack-moorhouse> wdt:P413 <https://www.wikidata.org/entity/Q193592>;
+a myont:FootballPlayer;
+foaf:name "Jack Moorhouse" .
+<https://www.wikidata.org/entity/Q193592> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jack-moorhouse> wdt:P54 <https://www.wikidata.org/entity/Q18656> .
+<https://www.wikidata.org/entity/Q18656> a wd:Q847017 .
+<https://www.wikidata.org/entity/Q27> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jack-moorhouse> wdt:P1532 <https://www.wikidata.org/entity/Q27> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jack-moorhouse> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "2005-11-29"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#william-murdock> myont:goals "0"^^xsd:integer;
+myont:assists "0"^^xsd:integer .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#william-murdock> wdt:P569 "2007-05-26"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+a myont:FootballPlayer;
+wdt:P1532 <https://www.wikidata.org/entity/Q26> .
+<https://www.wikidata.org/entity/Q26> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#william-murdock> foaf:name "William Murdock" .
+<https://www.wikidata.org/entity/Q18656> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#william-murdock> wdt:P54 <https://www.wikidata.org/entity/Q18656> .
+<https://www.wikidata.org/entity/Q201330> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#william-murdock> wdt:P413 <https://www.wikidata.org/entity/Q201330> .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#amara-nallo> wdt:P1532 <https://www.wikidata.org/entity/Q21> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#amara-nallo> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P54 <https://www.wikidata.org/entity/Q1130849>;
+a myont:FootballPlayer;
+foaf:name "Amara Nallo" .
+<https://www.wikidata.org/entity/Q336286> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#amara-nallo> wdt:P413 <https://www.wikidata.org/entity/Q336286> .
+<https://www.wikidata.org/entity/Q1130849> a wd:Q847017 .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#amara-nallo> wdt:P569 "2006-11-18"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#divock-origi> a myont:FootballPlayer;
+foaf:name "Divock Origi" .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#divock-origi> wdt:P413 <https://www.wikidata.org/entity/Q280658> .
+<https://www.wikidata.org/entity/Q19490> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#divock-origi> wdt:P54 <https://www.wikidata.org/entity/Q19490> .
+<https://www.wikidata.org/entity/Q31> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#divock-origi> wdt:P1532 <https://www.wikidata.org/entity/Q31> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#divock-origi> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "1995-04-18"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://www.wikidata.org/entity/Q193592> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#ivan-perisic> myont:assists "0"^^xsd:integer;
+wdt:P413 <https://www.wikidata.org/entity/Q193592> .
+<https://www.wikidata.org/entity/Q18741> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#ivan-perisic> wdt:P54 <https://www.wikidata.org/entity/Q18741>;
+myont:expectedGoals "0"^^xsd:float;
+myont:expectedAssists "0"^^xsd:float .
+<https://www.wikidata.org/entity/Q224> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#ivan-perisic> wdt:P1532 <https://www.wikidata.org/entity/Q224> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#ivan-perisic> wdt:P569 "1989-02-02"^^xsd:date;
+wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+a myont:FootballPlayer;
+foaf:name "Ivan Perisic";
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jeffrey-schlupp> a myont:FootballPlayer;
+foaf:name "Jeffrey Schlupp" .
+<https://www.wikidata.org/entity/Q193592> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jeffrey-schlupp> wdt:P413 <https://www.wikidata.org/entity/Q193592> .
+<https://www.wikidata.org/entity/Q19467> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jeffrey-schlupp> wdt:P54 <https://www.wikidata.org/entity/Q19467> .
+<https://www.wikidata.org/entity/Q117> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jeffrey-schlupp> wdt:P1532 <https://www.wikidata.org/entity/Q117> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#jeffrey-schlupp> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "1992-12-23"^^xsd:date;
+myont:expectedAssists "0.15"^^xsd:float;
+myont:expectedGoals "0.16"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#manor-solomon> a myont:FootballPlayer;
+foaf:name "Manor Solomon";
+wdt:P54 <https://www.wikidata.org/entity/Q18741> .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://www.wikidata.org/entity/Q18741> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#manor-solomon> wdt:P413 <https://www.wikidata.org/entity/Q280658> .
+<https://www.wikidata.org/entity/Q801> a wd:Q6256 .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#manor-solomon> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P1532 <https://www.wikidata.org/entity/Q801>;
+wdt:P569 "1999-07-24"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#son-heung-min> wdt:P413 <https://www.wikidata.org/entity/Q280658>;
+a myont:FootballPlayer .
+<https://www.wikidata.org/entity/Q18741> a wd:Q847017 .
+<https://www.wikidata.org/entity/Q884> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#son-heung-min> wdt:P1532 <https://www.wikidata.org/entity/Q884>;
+wdt:P54 <https://www.wikidata.org/entity/Q18741>;
+foaf:name "Son Heung-Min" .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#son-heung-min> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "1992-08-07"^^xsd:date;
+myont:expectedAssists "5.13"^^xsd:float;
+myont:expectedGoals "7.35"^^xsd:float;
+myont:assists "9"^^xsd:integer;
+myont:goals "7"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#raheem-sterling> wdt:P1532 <https://www.wikidata.org/entity/Q21>;
+wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P54 <https://www.wikidata.org/entity/Q9617>;
+foaf:name "Raheem Sterling" .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#raheem-sterling> wdt:P413 <https://www.wikidata.org/entity/Q280658>;
+a myont:FootballPlayer .
+<https://www.wikidata.org/entity/Q9617> a wd:Q847017 .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#raheem-sterling> wdt:P569 "1994-08-12"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "2"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#takehiro-tomiyasu> wdt:P1532 <https://www.wikidata.org/entity/Q17>;
+wdt:P54 <https://www.wikidata.org/entity/Q9617>;
+wdt:P413 <https://www.wikidata.org/entity/Q336286>;
+a myont:FootballPlayer;
+foaf:name "Takehiro Tomiyasu" .
+<https://www.wikidata.org/entity/Q336286> a wd:Q4611891 .
+<https://www.wikidata.org/entity/Q9617> a wd:Q847017 .
+<https://www.wikidata.org/entity/Q17> a wd:Q6256 .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#takehiro-tomiyasu> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "1998-05-11"^^xsd:date;
+myont:expectedAssists "0"^^xsd:float;
+myont:expectedGoals "0.18"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#luca-williams-barnett> myont:expectedAssists "0"^^xsd:float .
+<https://www.wikidata.org/entity/Q18741> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#luca-williams-barnett> wdt:P54 <https://www.wikidata.org/entity/Q18741>;
+wdt:P569 "2008-01-04"^^xsd:date;
+wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+a myont:FootballPlayer .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#luca-williams-barnett> foaf:name "Luca Williams-Barnett" .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#luca-williams-barnett> wdt:P413 <https://www.wikidata.org/entity/Q280658>;
+wdt:P1532 <https://www.wikidata.org/entity/Q21>;
+myont:expectedGoals "0"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#callum-wilson> wdt:P569 "1992-02-27"^^xsd:date .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#callum-wilson> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P1532 <https://www.wikidata.org/entity/Q21>;
+wdt:P54 <https://www.wikidata.org/entity/Q18716>;
+foaf:name "Callum Wilson";
+a myont:FootballPlayer .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#callum-wilson> wdt:P413 <https://www.wikidata.org/entity/Q280658> .
+<https://www.wikidata.org/entity/Q18716> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#callum-wilson> myont:expectedAssists "0.09"^^xsd:float;
+myont:expectedGoals "0.38"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://www.wikidata.org/entity/Q212> a wd:Q6256 .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#yehor-yarmoliuk> wdt:P1532 <https://www.wikidata.org/entity/Q212>;
+wdt:P54 <https://www.wikidata.org/entity/Q19571>;
+a myont:FootballPlayer;
+foaf:name "Yehor Yarmoliuk" .
+<https://www.wikidata.org/entity/Q193592> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#yehor-yarmoliuk> wdt:P413 <https://www.wikidata.org/entity/Q193592> .
+<https://www.wikidata.org/entity/Q19571> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#yehor-yarmoliuk> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "2004-01-03"^^xsd:date;
+myont:expectedAssists "0.91"^^xsd:float;
+myont:expectedGoals "0.61"^^xsd:float;
+myont:assists "0"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#ashley-young> a myont:FootballPlayer;
+foaf:name "Ashley Young" .
+<https://www.wikidata.org/entity/Q336286> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#ashley-young> wdt:P413 <https://www.wikidata.org/entity/Q336286> .
+<https://www.wikidata.org/entity/Q5794> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#ashley-young> wdt:P54 <https://www.wikidata.org/entity/Q5794> .
+<https://www.wikidata.org/entity/Q21> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#ashley-young> wdt:P1532 <https://www.wikidata.org/entity/Q21> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#ashley-young> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P569 "1985-09-07"^^xsd:date;
+myont:expectedAssists "2.91"^^xsd:float;
+myont:expectedGoals "0.27"^^xsd:float;
+myont:assists "3"^^xsd:integer;
+myont:goals "1"^^xsd:integer .
+<https://www.wikidata.org/entity/Q280658> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#evanilson> wdt:P413 <https://www.wikidata.org/entity/Q280658> .
+<https://www.wikidata.org/entity/Q19568> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#evanilson> wdt:P54 <https://www.wikidata.org/entity/Q19568>;
+wdt:P569 "1999-06-10"^^xsd:date .
+<https://www.wikidata.org/entity/Q155> a wd:Q6256 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#evanilson> wdt:P1532 <https://www.wikidata.org/entity/Q155> .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#evanilson> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+a myont:FootballPlayer;
+foaf:name "Evanilson";
+myont:expectedAssists "1.78"^^xsd:float;
+myont:expectedGoals "12.49"^^xsd:float;
+myont:assists "1"^^xsd:integer;
+myont:goals "10"^^xsd:integer .
+<https://www.wikidata.org/entity/Q96> a wd:Q6256 .
+<https://www.wikidata.org/entity/Q136817382> a wd:Q10927834 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#edson-álvarez> wdt:P8006 <https://www.wikidata.org/entity/Q136817382>;
+wdt:P1532 <https://www.wikidata.org/entity/Q96>;
+a myont:FootballPlayer;
+foaf:name "Edson Álvarez" .
+<https://www.wikidata.org/entity/Q193592> a wd:Q4611891 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#edson-álvarez> wdt:P413 <https://www.wikidata.org/entity/Q193592>;
+wdt:P569 "1997-10-24"^^xsd:date .
+<https://www.wikidata.org/entity/Q18747> a wd:Q847017 .
+<https://w3id.org/FAIR-course-UT/2025-2026/group9/data#edson-álvarez> wdt:P54 <https://www.wikidata.org/entity/Q18747>;
+myont:expectedAssists "0.89"^^xsd:float;
+myont:expectedGoals "0.38"^^xsd:float;
+myont:assists "1"^^xsd:integer;
+myont:goals "0"^^xsd:integer .
