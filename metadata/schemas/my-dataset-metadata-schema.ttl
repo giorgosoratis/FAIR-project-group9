@@ -1,0 +1,222 @@
+@prefix : <http://fairdatapoint.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:GeneralGroup
+  a sh:PropertyGroup ;
+  rdfs:label "General" ;
+  sh:order 0 .
+
+:Shape
+  a sh:NodeShape ;
+  rdfs:label "My Dataset Schema" ;
+  sh:targetClass dcat:Dataset ;
+  sh:property [
+    sh:path dct:title ;
+    sh:name "Title" ;
+    sh:description "The title of the dataset." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 0 ;
+    dash:editor dash:TextFieldEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:description ;
+    sh:name "Description" ;
+    sh:description "A description of the dataset, including its content and scope." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 1 ;
+    dash:editor dash:TextAreaEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:creator ;
+    sh:name "Creator" ;
+    sh:description "The person or organization responsible for creating the dataset." ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 0 ;
+    sh:order 2 ;
+    dash:editor dash:URIEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:publisher ;
+    sh:name "Publisher" ;
+    sh:description "The person or organization responsible for making the dataset available." ;
+    sh:nodeKind sh:IRI ;
+    sh:order 3 ;
+    dash:editor dash:URIEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:hasVersion ;
+    sh:name "Version" ;
+    sh:description "The version of the dataset." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:string ;
+    sh:minCount 0 ;
+    sh:maxCount 1 ;
+    sh:order 4 ;
+    dash:editor dash:TextFieldEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:issued ;
+    sh:name "Issued" ;
+    sh:description "The date on which the dataset was issued or published." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 5 ;
+    dash:editor dash:DatePickerEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:modified ;
+    sh:name "Modified" ;
+    sh:description "The date on which the dataset was last modified." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 6 ;
+    dash:editor dash:DatePickerEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:language ;
+    sh:name "Language" ;
+    sh:description "The language of the dataset content." ;
+    sh:nodeKind sh:IRI ;
+    sh:order 7 ;
+    dash:editor dash:URIEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dcat:theme ;
+    sh:name "Theme" ;
+    sh:description "The main topic or category of the dataset." ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:order 8 ;
+    dash:editor dash:URIEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dcat:keyword ;
+    sh:name "Keyword" ;
+    sh:description "A keyword or phrase describing the dataset." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:string ;
+    sh:order 9 ;
+    dash:editor dash:TextFieldEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dcat:contactPoint ;
+    sh:name "Contact Point" ;
+    sh:description "Contact information for questions about the dataset." ;
+    sh:nodeKind sh:IRI ;
+    sh:order 10 ;
+    dash:editor dash:URIEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dcat:landingPage ;
+    sh:name "Landing Page" ;
+    sh:description "The web page that provides information about the dataset." ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    sh:order 11 ;
+    dash:editor dash:URIEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:license ;
+    sh:name "License" ;
+    sh:description "The license under which the dataset is made available." ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    sh:order 12 ;
+    dash:editor dash:URIEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:temporal ;
+    sh:name "Temporal Coverage" ;
+    sh:description "The time period covered by the dataset." ;
+    sh:nodeKind sh:BlankNode ;
+    sh:class dct:PeriodOfTime ;
+    sh:node :PeriodOfTimeShape ;
+    sh:minCount 0 ;
+    sh:maxCount 1 ;
+    sh:order 13 ;
+    dash:editor dash:DetailsEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:spatial ;
+    sh:name "Spatial Coverage" ;
+    sh:description "The geographic area covered by the dataset." ;
+    sh:nodeKind sh:IRI ;
+    sh:class dct:Location ;
+    sh:maxCount 1 ;
+    sh:order 14 ;
+    dash:editor dash:URIEditor ;
+    sh:group :GeneralGroup
+  ] ;
+  sh:property [
+    sh:path dct:source ;
+    sh:name "Source" ;
+    sh:description "The original dataset from which the current dataset was derived." ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    sh:order 15 ;
+    dash:editor dash:URIEditor ;
+    sh:group :GeneralGroup
+  ] .
+
+:PeriodOfTimeShape
+  a sh:NodeShape ;
+  sh:targetClass dct:PeriodOfTime ;
+  sh:property [
+    sh:path dcat:startDate ;
+    sh:name "Start Date" ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 0 ;
+    dash:editor dash:DatePickerEditor
+  ] ;
+  sh:property [
+    sh:path dcat:endDate ;
+    sh:name "End Date" ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 1 ;
+    dash:editor dash:DatePickerEditor
+  ] .
+
+# ── Preserved: SHACL/RDF Contour does not model. Round-tripped as-is. ──
+_:b4_b3_b2_n3-0 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LiteralViewer> .
+_:b4_b3_b2_n3-1 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LiteralViewer> .
+_:b4_b3_b2_n3-2 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LabelViewer> .
+_:b4_b3_b2_n3-3 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LabelViewer> .
+_:b4_b3_b2_n3-4 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LiteralViewer> .
+_:b4_b3_b2_n3-5 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LabelViewer> .

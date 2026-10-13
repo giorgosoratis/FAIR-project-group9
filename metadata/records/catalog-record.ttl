@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272> a dcat:Resource,
+    dcat:Catalog;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Premier League FAIRification Project";
+  dcterms:title "Premier League FAIRification Project";
+  dcat:version "1.0";
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-07T14:00:26.543211437Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-07T15:54:08.517407604Z"^^xsd:dateTime;
+  dcterms:license <https://opensource.org/license/mit/>;
+  dcterms:description "A catalog containing metadata about datasets from the Premier League FAIRification project.";
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272#identifier>;
+  dcterms:accessRights <http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272#accessRights>;
+  dcterms:publisher [ a foaf:Agent;
+      foaf:name "FAIR Project Group 9"
+    ];
+  dcterms:isPartOf <http://localhost:8080>;
+  <http://semanticscience.org/resource/SIO_000628> <http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcterms:issued "2026-10-07T14:00:26.543211437Z"^^xsd:dateTime;
+  dcterms:modified "2026-10-07T14:00:26.543211437Z"^^xsd:dateTime;
+  dcat:dataset <http://localhost:8080/dataset/299ced36-c6d9-4d7a-acf0-7afdb82e92a8>;
+  dcat:themeTaxonomy <https://www.wikidata.org/entity/Q349>, <https://www.wikidata.org/entity/Q2736>,
+    <https://www.wikidata.org/entity/Q9448>;
+  dcterms:conformsTo <http://localhost:8080/profile/a0949e72-4466-4d53-8900-9436d1049a4b> .
+
+<http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272#identifier> a
+    <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272" .
+
+<http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777> .
+
+<http://localhost:8080/dataset/> a ldp:DirectContainer;
+  dcterms:title "Datasets";
+  ldp:membershipResource <http://localhost:8080/catalog/8ad6a32c-5636-4ed7-869f-aec2e4652272>;
+  ldp:hasMemberRelation dcat:dataset;
+  ldp:contains <http://localhost:8080/dataset/299ced36-c6d9-4d7a-acf0-7afdb82e92a8> .
+
+<http://localhost:8080/profile/a0949e72-4466-4d53-8900-9436d1049a4b> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Catalog Profile" .

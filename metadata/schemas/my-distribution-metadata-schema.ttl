@@ -1,0 +1,197 @@
+@prefix : <http://fairdatapoint.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:Section1Group
+  a sh:PropertyGroup ;
+  rdfs:label "General" ;
+  sh:order 0 .
+
+:MyDistributionSchema
+  a sh:NodeShape ;
+  rdfs:label "My Distribution Schema" ;
+  sh:targetClass dcat:Distribution ;
+  sh:property [
+    sh:path dct:title ;
+    sh:name "Title" ;
+    sh:description "The title of the distribution." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 0 ;
+    dash:editor dash:TextFieldEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:description ;
+    sh:name "Description" ;
+    sh:description "A description of the distribution, including its format and content." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 1 ;
+    dash:editor dash:TextAreaEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:identifier ;
+    sh:name "Identifier" ;
+    sh:description "A unique identifier for the distribution." ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 2 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:creator ;
+    sh:name "Creator" ;
+    sh:description "The person or organization responsible for creating the distribution." ;
+    sh:nodeKind sh:IRI ;
+    sh:order 3 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:publisher ;
+    sh:name "Publisher" ;
+    sh:description "The person or organization responsible for making the distribution available." ;
+    sh:nodeKind sh:IRI ;
+    sh:order 4 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:issued ;
+    sh:name "Issued" ;
+    sh:description "The date on which the distribution was issued or published." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 5 ;
+    dash:editor dash:DatePickerEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:modified ;
+    sh:name "Modified" ;
+    sh:description "The date on which the distribution was last modified." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 6 ;
+    dash:editor dash:DatePickerEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:hasVersion ;
+    sh:name "Version" ;
+    sh:description "The version of the distribution." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:order 7 ;
+    dash:editor dash:TextFieldEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:language ;
+    sh:name "Language" ;
+    sh:description "The language of the distribution content." ;
+    sh:nodeKind sh:IRI ;
+    sh:order 8 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:format ;
+    sh:name "Format" ;
+    sh:description "The file format of the distribution." ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 9 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dcat:mediaType ;
+    sh:name "Media Type" ;
+    sh:description "The media type of the distribution according to its file format." ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 10 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:license ;
+    sh:name "License" ;
+    sh:description "The license under which the distribution is made available." ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    sh:order 11 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dcat:accessURL ;
+    sh:name "Access URL" ;
+    sh:description "A URL that provides access to the distribution or information about how to access it." ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    sh:order 12 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dcat:downloadURL ;
+    sh:name "Download URL" ;
+    sh:description "The URL from which the distribution can be downloaded." ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:order 13 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dcat:byteSize ;
+    sh:name "Byte Size" ;
+    sh:description "The size of the distribution in bytes." ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:order 14 ;
+    dash:editor dash:TextFieldEditor ;
+    sh:group :Section1Group
+  ] ;
+  sh:property [
+    sh:path dct:conformsTo ;
+    sh:name "Conforms To" ;
+    sh:description "A standard, specification, or ontology that the distribution conforms to." ;
+    sh:nodeKind sh:IRI ;
+    sh:order 15 ;
+    dash:editor dash:URIEditor ;
+    sh:group :Section1Group
+  ] .
+
+# ── Preserved: SHACL/RDF Contour does not model. Round-tripped as-is. ──
+_:b4_b3_b2_n3-0 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LiteralViewer> .
+_:b4_b3_b2_n3-1 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LiteralViewer> .
+_:b4_b3_b2_n3-2 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LabelViewer> .
+_:b4_b3_b2_n3-3 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LabelViewer> .
+_:b4_b3_b2_n3-4 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LiteralViewer> .
+_:b4_b3_b2_n3-5 <http://datashapes.org/dash#viewer> <http://datashapes.org/dash#LabelViewer> .
