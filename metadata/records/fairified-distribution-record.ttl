@@ -29,7 +29,7 @@
   dcterms:creator <https://github.com/giorgosoratis>, <https://github.com/nkantouna>;
   dcterms:hasVersion "1.0";
   dcterms:format <https://www.iana.org/assignments/media-types/text/turtle>;
-  dcat:byteSize 1087571.0 .
+  dcat:byteSize 1093707.0 .
 
 <http://localhost:8080/distribution/32fa00c3-20be-4d83-914c-53ca2ccc8cc6#identifier>
   a <http://purl.org/spar/datacite/Identifier>;
