@@ -22,7 +22,7 @@ The original data are kept unchanged to preserve the provenance of the source ma
 
 The original dataset distribution is identified by the following W3ID:
 
-https://w3id.org/FAIR-course-UT/2025-2026/group9/data/original
+https://w3id.org/FAIR-course-UT/2025-2026/group9/data-original
 
 ## Data Preparation
 
@@ -51,7 +51,7 @@ The final FAIRified dataset is provided as an RDF/Turtle file:
 
 The FAIRified RDF distribution is identified by the following W3ID:
 
-https://w3id.org/FAIR-course-UT/2025-2026/group9/data/fairified
+https://w3id.org/FAIR-course-UT/2025-2026/group9/data
 
 The RDF dataset represents information about Premier League players and their statistics using the semantic model and ontology developed for this project.
 

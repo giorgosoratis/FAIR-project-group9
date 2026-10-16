@@ -8,13 +8,14 @@
   <http://www.w3.org/2000/01/rdf-schema#label> "Premier League Player Data 2024/2025 - FAIRified RDF";
   dcterms:title "Premier League Player Data 2024/2025 - FAIRified RDF";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-07T15:47:03.896067088Z"^^xsd:dateTime;
-  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-07T15:47:03.896067088Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-16T07:50:43.701256529Z"^^xsd:dateTime;
   dcterms:license <https://opensource.org/license/mit/>;
   dcterms:description "FAIRified and triplified RDF representation of the Premier League player dataset. The original data were cleaned, reconciled, merged, and transformed into RDF using the project's semantic data model and ontology.";
-  dcterms:conformsTo <https://w3id.org/FAIR-course-UT/2025-2026/group9/ont>, <http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7>;
+  dcterms:conformsTo <https://w3id.org/FAIR-course-UT/2025-2026/group9/ont>, <http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7>,
+    <http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7>;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
   <https://w3id.org/fdp/fdp-o#metadataIdentifier> <http://localhost:8080/distribution/32fa00c3-20be-4d83-914c-53ca2ccc8cc6#identifier>;
-  dcterms:identifier <https://w3id.org/FAIR-course-UT/2025-2026/group9/data/fairified>;
+  dcterms:identifier <https://w3id.org/FAIR-course-UT/2025-2026/group9/data>;
   dcterms:accessRights <http://localhost:8080/distribution/32fa00c3-20be-4d83-914c-53ca2ccc8cc6#accessRights>;
   dcterms:publisher <https://github.com/giorgosoratis>, <https://github.com/nkantouna>;
   dcterms:isPartOf <http://localhost:8080/dataset/299ced36-c6d9-4d7a-acf0-7afdb82e92a8>;
@@ -23,12 +24,12 @@
   dcterms:issued "2026-10-07"^^xsd:date;
   dcterms:modified "2026-10-07"^^xsd:date;
   dcat:accessURL <https://github.com/giorgosoratis/FAIR-project-group9/blob/main/data/fairified/football-players-final.ttl>;
-  dcat:downloadURL <https://w3id.org/FAIR-course-UT/2025-2026/group9/data/fairified>;
+  dcat:downloadURL <https://w3id.org/FAIR-course-UT/2025-2026/group9/data>;
   dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle>;
   dcterms:creator <https://github.com/giorgosoratis>, <https://github.com/nkantouna>;
   dcterms:hasVersion "1.0";
   dcterms:format <https://www.iana.org/assignments/media-types/text/turtle>;
-  dcat:byteSize 29400.0 .
+  dcat:byteSize 1087571.0 .
 
 <http://localhost:8080/distribution/32fa00c3-20be-4d83-914c-53ca2ccc8cc6#identifier>
   a <http://purl.org/spar/datacite/Identifier>;
@@ -38,6 +39,9 @@
   a dcterms:RightsStatement;
   dcterms:description "This resource has no access restriction" .
 
+<http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Distribution Profile", "Distribution Profile" .
+
 <http://localhost:8080/distribution/32fa00c3-20be-4d83-914c-53ca2ccc8cc6/metrics/445c0a70d1e214e545b261559e2842f4>
   <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt>;
   <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt> .
@@ -45,6 +49,3 @@
 <http://localhost:8080/distribution/32fa00c3-20be-4d83-914c-53ca2ccc8cc6/metrics/5d27e854a9e78eb3f663331cd47cdc13>
   <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777>;
   <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777> .
-
-<http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7> <http://www.w3.org/2000/01/rdf-schema#label>
-    "Distribution Profile" .

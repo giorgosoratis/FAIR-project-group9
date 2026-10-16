@@ -8,12 +8,14 @@
   <http://www.w3.org/2000/01/rdf-schema#label> "Premier League Player Data 2024/2025 - Original Dataset";
   dcterms:title "Premier League Player Data 2024/2025 - Original Dataset";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-07T15:41:22.025410452Z"^^xsd:dateTime;
-  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-07T15:41:22.025410452Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-16T07:47:43.949974111Z"^^xsd:dateTime;
   dcterms:license <https://opensource.org/license/mit/>;
   dcterms:description "Original dataset containing Premier League player information and player statistics obtained from the Kaggle source dataset. The original data are provided as two CSV files packaged together in a ZIP archive.";
+  dcterms:conformsTo <http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7>,
+    <http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7>;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
   <https://w3id.org/fdp/fdp-o#metadataIdentifier> <http://localhost:8080/distribution/0174da88-7996-4b27-a222-0e8526fe3df5#identifier>;
-  dcterms:identifier <https://w3id.org/FAIR-course-UT/2025-2026/group9/data/original>;
+  dcterms:identifier <https://w3id.org/FAIR-course-UT/2025-2026/group9/data-original>;
   dcterms:accessRights <http://localhost:8080/distribution/0174da88-7996-4b27-a222-0e8526fe3df5#accessRights>;
   dcterms:publisher <https://github.com/giorgosoratis>, <https://github.com/nkantouna>;
   dcterms:isPartOf <http://localhost:8080/dataset/299ced36-c6d9-4d7a-acf0-7afdb82e92a8>;
@@ -22,13 +24,12 @@
   dcterms:issued "2026-10-07"^^xsd:date;
   dcterms:modified "2026-10-07"^^xsd:date;
   dcat:accessURL <https://github.com/giorgosoratis/FAIR-project-group9/blob/main/data/original/original_dataset.zip>;
-  dcat:downloadURL <https://w3id.org/FAIR-course-UT/2025-2026/group9/data/original>;
+  dcat:downloadURL <https://w3id.org/FAIR-course-UT/2025-2026/group9/data-original>;
   dcat:mediaType <https://www.iana.org/assignments/media-types/application/zip>;
   dcterms:creator <https://www.kaggle.com/danielijezie>;
   dcterms:hasVersion "1.0";
   dcterms:format <https://www.iana.org/assignments/media-types/application/zip>;
-  dcat:byteSize 70060.0;
-  dcterms:conformsTo <http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7> .
+  dcat:byteSize 70060.0 .
 
 <http://localhost:8080/distribution/0174da88-7996-4b27-a222-0e8526fe3df5#identifier>
   a <http://purl.org/spar/datacite/Identifier>;
@@ -38,6 +39,9 @@
   a dcterms:RightsStatement;
   dcterms:description "This resource has no access restriction" .
 
+<http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Distribution Profile", "Distribution Profile" .
+
 <http://localhost:8080/distribution/0174da88-7996-4b27-a222-0e8526fe3df5/metrics/445c0a70d1e214e545b261559e2842f4>
   <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt>;
   <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt> .
@@ -45,6 +49,3 @@
 <http://localhost:8080/distribution/0174da88-7996-4b27-a222-0e8526fe3df5/metrics/5d27e854a9e78eb3f663331cd47cdc13>
   <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777>;
   <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777> .
-
-<http://localhost:8080/profile/02c649de-c579-43bb-b470-306abdc808c7> <http://www.w3.org/2000/01/rdf-schema#label>
-    "Distribution Profile" .
