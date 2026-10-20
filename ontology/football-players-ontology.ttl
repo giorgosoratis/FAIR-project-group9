@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/FAIR-course-UT/2025-2026/group9/ont#> .
+@prefix : <https://w3id.org/FAIR-course-UT/2026/group09/ont#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -8,11 +8,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix myont: <https://w3id.org/FAIR-course-UT/2025-2026/group9/ont#> .
+@prefix myont: <https://w3id.org/FAIR-course-UT/2026/group09/ont#> .
 @prefix schema: <http://schema.org/> .
-@base <https://w3id.org/FAIR-course-UT/2025-2026/group9/ont> .
+@base <https://w3id.org/FAIR-course-UT/2026/group09/ont#> .
 
-<https://w3id.org/FAIR-course-UT/2025-2026/group9/ont> rdf:type owl:Ontology .
+<https://w3id.org/FAIR-course-UT/2026/group09/ont> rdf:type owl:Ontology .
 
 #################################################################
 #    Datatypes
@@ -77,7 +77,7 @@ foaf:name rdf:type owl:DatatypeProperty ;
           rdfs:range xsd:string .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group9/ont#assists
+###  https://w3id.org/FAIR-course-UT/2026/group09/ont#assists
 myont:assists rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:domain myont:FootballPlayer ;
@@ -86,7 +86,7 @@ myont:assists rdf:type owl:DatatypeProperty ;
               rdfs:label "assists given" .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group9/ont#expectedAssists
+###  https://w3id.org/FAIR-course-UT/2026/group09/ont#expectedAssists
 myont:expectedAssists rdf:type owl:DatatypeProperty ;
                       rdfs:subPropertyOf owl:topDataProperty ;
                       rdfs:domain myont:FootballPlayer ;
@@ -95,7 +95,7 @@ myont:expectedAssists rdf:type owl:DatatypeProperty ;
                       rdfs:label "expected assists (xA)" .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group9/ont#expectedGoals
+###  https://w3id.org/FAIR-course-UT/2026/group09/ont#expectedGoals
 myont:expectedGoals rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
                     rdfs:domain myont:FootballPlayer ;
@@ -104,7 +104,7 @@ myont:expectedGoals rdf:type owl:DatatypeProperty ;
                     rdfs:label "expected Goals (xG)" .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group9/ont#goals
+###  https://w3id.org/FAIR-course-UT/2026/group09/ont#goals
 myont:goals rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
             rdfs:domain myont:FootballPlayer ;
@@ -141,7 +141,7 @@ wd:Q847017 rdf:type owl:Class ;
            rdfs:label "Sports Club" .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group9/ont#FootballPlayer
+###  https://w3id.org/FAIR-course-UT/2026/group09/ont#FootballPlayer
 myont:FootballPlayer rdf:type owl:Class ;
                      rdfs:subClassOf owl:Thing ;
                      rdfs:comment "A person who plays football" ;
